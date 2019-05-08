@@ -1,14 +1,18 @@
-import React from 'react';
-import styles from './PageTemplate.scss';
-import classNames from 'classnames/bind';
+import React , {Component}from 'react';
+import './PageTemplate.css';
+import Header from './Header';
 
-const cx = classNames.bind(styles);
 
-const PageTemplate = () => {
-    // eslint-disable-next-line no-unused-expressions
-    <div className={cx('page-template')}>
-        PageTemplate
+class PageTemplate extends Component {
+    render() {
+      return (
+        <div >
+            <Header/>
+                <main className="page-template">
+                </main>
     </div>
-};
+      );
+    }
+  }
 
 export default PageTemplate;

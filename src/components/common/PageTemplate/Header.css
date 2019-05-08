@@ -1,0 +1,29 @@
+.title-bar {
+    height: 50px;
+    line-height: 25px;
+    text-align: center;
+    border-top: 1px solid #666666;
+    padding-left: 36px !important;
+    padding-right: 10px !important;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    background-size: 100% 100%;
+    background: -webkit-linear-gradient(top, #5e5e5e, #4f4f4f 4%, #262626 44%, #1c1c1c 50%, #050505 50%, black);
+
+    z-index: 3;
+    padding: 0 10px;
+}
+
+.title-bar .logo{
+    height: 35px;
+    width: 165px;
+    padding-top: 8px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-top: 1px;
+}

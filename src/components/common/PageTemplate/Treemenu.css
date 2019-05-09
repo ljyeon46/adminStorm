@@ -1,0 +1,14 @@
+.menu{
+    position: fixed;
+    top: 50px;
+    right: auto;
+    width: 260px;
+    height: 100%;
+    background: #575d62;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 7px rgba(0, 0, 0, 0.8);
+    border-radius: 6px;
+    background : 
+    url(../../../styles/img/grid.png),
+    
+    
+}

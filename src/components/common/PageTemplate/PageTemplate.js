@@ -1,18 +1,17 @@
-import React , {Component}from 'react';
+import React from 'react';
 import './PageTemplate.css';
 import Header from './Header';
+import Treemenu from './Treemenu';
 
+const PageTemplate =({children}) => (
+  <div  className="page-template">
+      <Header/>
+      <main>
+        <Treemenu/>
+        {children}
+      </main>
+  </div>
+);
 
-class PageTemplate extends Component {
-    render() {
-      return (
-        <div >
-            <Header/>
-                <main className="page-template">
-                </main>
-    </div>
-      );
-    }
-  }
 
 export default PageTemplate;

@@ -1,9 +1,11 @@
 import React from 'react';
+import PageTemplate from '../components/common/PageTemplate';
+
 
 const NoticePage = () => {
     return (
         <div>
-            STORM 알림관리 페이지입니다
+            <PageTemplate/>
         </div>
     );
 };

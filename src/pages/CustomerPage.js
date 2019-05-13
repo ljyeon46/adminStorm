@@ -1,9 +1,11 @@
 import React from 'react';
+import PageTemplate from '../components/common/PageTemplate';
+
 
 const CustomerPage = () => {
     return (
         <div>
-            STORM 고객관리페이지 입니다
+            <PageTemplate/>
         </div>
     );
 };

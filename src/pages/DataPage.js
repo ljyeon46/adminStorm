@@ -1,9 +1,11 @@
 import React from 'react';
+import PageTemplate from '../components/common/PageTemplate';
+
 
 const DataPage = () => {
     return (
         <div>
-            STORM 통계예측 페이지입니다
+           <PageTemplate/>
         </div>
     );
 };

@@ -44,7 +44,9 @@
     align-content: center;
     width: 800px;
     padding-left: 200px;
+    color:white;
 }
-.MuiTab-textColorSecondary-41{
-    color:white
+
+.MuiTab-label-47 {
+    color : white !important;
 }
